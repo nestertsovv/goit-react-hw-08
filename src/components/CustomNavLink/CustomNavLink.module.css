@@ -1,0 +1,16 @@
+.link {
+  font-size: 20px;
+  line-height: 1.75;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &:hover:not(.active) {
+    color: #c2c2c2;
+  }
+}
+
+.active {
+  color: #e76f51;
+}

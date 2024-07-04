@@ -1,0 +1,28 @@
+.header {
+  padding: 15px 30px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  background-color: #264653;
+  max-height: 65px;
+
+  .list {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .name {
+    margin: 0;
+    color: #2a9d8f;
+
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+}

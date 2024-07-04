@@ -1,0 +1,18 @@
+.wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 24px;
+  margin: 0 auto 24px;
+
+  span {
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px 16px;
+    border: 1px solid #264653;
+    border-radius: 6px;
+  }
+}

@@ -1,0 +1,36 @@
+.defaultBtn {
+  padding: 4px 8px;
+  border: 2px solid #264653;
+  border-radius: 6px;
+  background-color: #264653;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: transparent;
+    color: #264653;
+  }
+
+  &.editBtn,
+  .confirmBtn,
+  .submitBtn {
+    background-color: #2a9d8f;
+    border-color: #2a9d8f;
+
+    &:hover {
+      background-color: transparent;
+      color: #2a9d8f;
+    }
+  }
+
+  &.deleteBtn {
+    background-color: #e76f51;
+    border-color: #e76f51;
+
+    &:hover {
+      background-color: transparent;
+      color: #e76f51;
+    }
+  }
+}

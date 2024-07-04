@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero {
+  min-height: calc(100vh - 65px);
+}
+
+.hero.hero-main {
+  background-image: url("./images/contacts.jpg");
+}
+
+.get-started-btn,
+.login-btn {
+  &:hover {
+    background: transparent;
+    color: #e76f51;
+    border-color: #e76f51;
+  }
+}
